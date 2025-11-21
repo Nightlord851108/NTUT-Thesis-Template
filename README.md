@@ -45,21 +45,6 @@ sudo apt install make # Ubuntu
 - 編譯產生論文 pdf 檔案：`make` 或是 `make all`
 - 刪除編譯產生的檔案：`make clean`
   
-#### 2. 使用 Shell Script
-
-不需要安裝其他指令，直接跑以下指令：
-
-```bash
-./build.sh
-```
-
-#### 3. 使用 XeLaTeX 的原始指令
-
-```bash
-xelatex main
-bibtex main
-xelatex main
-```
 
 ## 檔案架構
 
